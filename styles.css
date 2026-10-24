@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    /*zerando as distancias*/
+    box-sizing: border-box;
+    font-family: "Bangers", system-ui;
+
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url("img/background.jpeg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.nome {
+    color: #e32591;
+    font-size: 360px;
+    position: absolute;
+    /*Vai ficar absolutamente onde eu quero*/
+    bottom: 500px;
+    text-align: center;
+    width: 100%;
+    /*Largura da tela*/
+}
+
+.personagem {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 700px;
+    margin: auto;
+}
+
+.textos {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+
+.etiqueta {
+    font-size: 26px;
+    color: #ffd319;
+}
+
+h1 {
+    font-size: 72px;
+    color: #ffffff;
+}
+
+.texto-apoio {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.menu {
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    /*espaçamento dos intens*/
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    /*arredendonda os itens*/
+    object-fit: cover;
+    /*como o objeto se encaixa*/
+    object-position: top;
+    border: 2px solid #ffffff;
+}
+
+.voce {
+    border-radius: 50%;
+    background-color: #ffd319;
+    padding: 20px;
+    /*espaçamento interno*/
+}
+
+/*
+
+* = TUDO
+*/
